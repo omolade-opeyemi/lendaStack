@@ -1,0 +1,21 @@
+a{
+    display: flex;
+    align-items:baseline;
+}
+
+.card{
+    .color{
+        height: 10rem;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .detail{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap: 1rem;
+        .label{
+            width: 50%;
+        }
+    }
+}
